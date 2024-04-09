@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="sy.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><!--to use some icons for advanced development-->
+    <script src="https://kit.fontawesome.com/09b521b2fe.js" crossorigin="anonymous"></script>
+    <!-- STUDENT NAME: ABDELA NESREDIN;
+          IDNUMBER :1400751;
+          DEPARTMENT: SOFTWARE ENGINNERING
+          COLLEGE OF :NATURAL SCIENCE 
+    
+    -->
+</head>
+<body>
+    <div id="header" style="display: block; color: rgb(66, 60, 60); ">
+        <div class="container">
+            <nav>
+                <img src="logo.png"  class="logo" width="400px" height="100px"><!--logo that i have done  for my website-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' id="x" onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' id="me" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext"  >
+                <h2> I am<span class="text1">Abdelah Nesredin</span></h2>
+                 Ethiopia </h2>
+                 
+            </div>
+
+        </div>
+    </div> 
+    
+
+
+<!--THIS IS ABOUT ME section OF MY WEBSITE-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="s.jpg" alt="MY snapchat despcription image">
+                </div>
+                <div class="col2">
+                    <div class="maintitel" id="my">
+                    <h2> <span>About ME</span> <span class="bgtext">ItsMe</span></h2>
+                    </div>
+                  <p>My name is Abdelah Nesredin Nasir 
+                     am  3rd year a software enginnering student 
+                     in Debrebirhan university college of computing 
+                     am a web Developer;
+                  </p>
+               
+                <div class="tabtitle"><!--javascript code for developing skills experiance and education  level-->
+                    <p class="tablink  activel" onclick="opentab('Skills')">Skills</p>
+                    <p class="tablink"  onclick="opentab('Experiance')">Experiance</p>
+                    <p class="tablink"  onclick="opentab('Education')">Education</p>   
+                </div> 
+
+<!--THIS IS ABOUT ME SECTIPN OF MY WEBSITE-->
+                     
+                    
+
+                <div class="tabcontents activetab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span> <br>Designinig web/app interfsaces</li>
+                        <li><span>web development</span> <br>web app development</li>
+                        <li><span>App develoment  </span> <br>building android and ios apps</li>
+                    </ul>
+                </div>
+
+
+                <div class="tabcontents" id="Experiance">
+                    <ul>
+                        <li><span>web Designer</span> <br>Designinig web and apps for client </li>
+                        <li><span>web development</span> <br> developing a website</li>
+                        <li><span>App develoment  </span> <br> build android apps </li>
+                    </ul>
+                </div>
+
+
+                <div class="tabcontents" id="Education">
+                    <ul>
+                        <li><span>web Designer</span> <br>Designinig web/app interfsaces</li>
+                        <li><span>web development</span> <br>web app development</li>
+                        <li><span>App develoment  </span> <br>building android and ios apps</li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <!--this is service section of my website-->
+    <div id="services">
+        <div class="container">
+            <div class="maintitel">
+            <h2 > <span>Myservices</span> <span class="bgtext">website</span></h2>
+            </div>
+            <div class="serviceslist">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>web Design </h2>
+                    <p>Creating dynamic and intractive web pages<br> using diffrent programming Language <br>Front end developer mainly <br>i can also develop the backend part <br></p>
+                    <a href="https://github.com/Abdunesr/learngit">click here to see my Github projects  <i class='bx bxl-github bx-tada' ></i></a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>web Designer </h2>
+                    <p> I have developed good graphics skill <br>in Designing a website <br>throgh out a process dedicted learning of short couses <br>on international learning website <br> so am obssosed with it </p>
+                    <a href="https://www.linkedin.com/in/abdela-nasir-259759301/">you can contactme in linkedin Designs <i class='bx bxl-linkedin bx-tada' ></i></a>
+                </div>
+                <div>  
+                    <i class='bx bx-shape-square'></i>
+                    <h2>App Design </h2>
+                    <p>i have a good skill in app Design <br> I developed this skill throgh learning designin courses through ALX <br>
+                    i can't guarentee that advanced designing frame work but i have some skills in this and i can help you in this</p>
+                    <a href="#"> click here DM me in instagram <br><i class='bx bxl-instagram bx-tada' ></i> </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  
+
+
+    <!--this is portifolio section of my website-->
+    <div id="portfolio">
+        <div class="container">
+            <div class="maintitel">
+            <h2> <span>my projects</span> <span class="bgtext"> </span></h2>
+            </div>
+            <div>
+                <h2 style="margin: 0; font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(176, 243, 220);padding: 4px;">you can get many of my project works in my Github account   <br>
+                    dat algorithm and structure <br>
+                    objectoriented opps programming projects <br>
+                    many web devveloping projects from the scrach to todays level <br>
+                     <a href="https://github.com/Abdunesr/learngit" style="text-decoration: none; color: aquamarine;">click here to see my Github projects  <i style="font-size: 50px;" class='bx bxl-github bx-tada' ></i></a> </h2>
+            </div>
+            <div class="worklist">
+               
+                <div class="worklist">
+                    <div class="work"><img src="j.jpg" >
+                        <div class="layer">
+                            <h3>HI all welcome to my java sample prototype</h3>
+                            <p>Hi click the link icon to see the web project sample <br>That i have done to show some prototype</p>
+                        
+                       <a href="fiel/DiceRoller.java"><i class='bx bx-link'></i></a>
+                        </div>
+                    </div>
+                    <div class="worklist">
+                        <div class="work"><img src="d.jpg" >
+                            <div class="layer">
+                                <h3>Web Developing and Design</h3>
+                                <p>Hi click the link icon to see the web project sample <br>That i have done to show some prototype</p>
+                           <a href="fiel/index.html"><i class='bx bx-link'></i></a>
+                            </div>
+        
+                        </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!--this is contact me section of my website-->
+    <section class="contact sec5 contact" id="contact" >
+        <div class="contactcont">
+        <div class="maintitel">
+            <h2>contact <span>Me</span> <span class="bgtext">Myblogs</span></h2>
+      
+        </div>
+    
+    <div class="contacontcon">
+        <div class="contactleft">
+            <h4 style="color: rgb(213, 241, 189); display: inline-block; border: 1px solid rgb(70, 70, 70); border-radius: 4px;">Contact me here</h4>
+            <p>Feel free to connect with me! Whether you have a job opportunity, a project idea, or just want to chat about tech, I’d love to hear from you. You can reach me via email or connect with me on LinkedIn. Let’s collaborate and make something awesome together! </p>
+        <div class="contactinfo">
+           <div class="contactitem">
+                <div class="icon">
+                    <i class='bx bxs-location-plus' ></i>
+                    Location
+                </div> 
+              <p>DEBREBIRHAN,Ethiopia</p>
+                <div class="contactitem">
+                    <div class="icon">
+                        <i class='bx bxs-graduation'></i>
+                        <span>Education: <br>DBU university, department of software enginnering</span>
+                    </div> 
+                    
+                </div>
+                <div class="contactitem">
+                    <div class="icon">
+                        <i class='bx bx-envelope' ></i>
+                        <span>Email:nesredinabdelah@gmail.com</span>
+                    </div> 
+                    
+                </div>
+                <div class="contactitem">
+                    <div class="icon">
+                        <i class='bx bx-phone-call' ></i>
+                       <span>Mobile Number : +251900729339</span> 
+                    </div> 
+                 
+                </div>
+                
+                
+    
+            </div>
+        </div>
+        <!--all the links are functional you can click them and see all the projects that i ahve done-->
+        <div class="contacticons">
+            <div class="contacticon">
+                <a href="https://www.facebook.com/people/Abdelah-Nesredin-Nasir/100086032320753/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.youtube.com/channel/UCtZW9NuqDC94DF5iVKJw3QQ" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-telegram' ></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-instagram bx-tada bx-rotate-270' ></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="contactright " id="ic2">
+            <form action="" class="contactform">
+            <div class="inputcontrol ">
+                <input type="text" required  placeholder="your Name">
+                <input type="email" required placeholder=" your Email">
+            </div>
+            <div class="inputcontrol">
+                <input type="text" required  placeholder="ENTER Subject">
+              
+            </div>
+            <div class="inputcontrol">
+               <textarea name="" id="" cols="15" rows="8" placeholder="Message Here"></textarea>
+            </div>
+            <button type="submit" class="ayub" value="login" onclick="alert('  you summit sucesfully')">submit</button>
+            <div class="submit">
+                <a href="cv.pdf" class="mainbtn">
+                    <span class="btntext">Dowload Cv</span>
+                     <span class="btnicon"><i class='bx bx-download bx-flip-horizontal' ></i></span>
+                </a>
+                
+    
+            </div>
+            </form>
+    
+        </div>
+    </div>
+    
+        </div>
+            
+    
+    
+    
+        </section>
+
+
+
+
+
+    
+        <div class="copyright">
+            <p>copyright &copy; Abdelah. all rights are reserved </p>
+        </div>
+    </div>
+
+
+
+    <script>/* script code for increase the dynamics of my website */
+        var tablinks = document.getElementsByClassName('tablink');
+        var tabcontent= document.getElementsByClassName('tabcontents');
+
+      function opentab(tabname){
+
+        for(tablin of tablinks){
+            tablin.classList.remove("activel");
+        }
+        for(tabcon of tabcontent){
+            tabcon .classList.remove("activetab");
+        } 
+     event.currentTarget.classList.add("activel");
+     document.getElementById(tabname).classList.add("activetab")  
+      }
+      document.getElementById('Skills').innerHTML= " <p >I have many skills</p><br>Designing and Developing a website <br> using html css and javascript<br> with their corosponding frame works <br>i have skills<br> also in writing requirments <br>for diffrent  web developments<br> "
+      document.getElementById('Experiance').innerHTML="<p>I have 0+ experiance</p><br>as software enginnering student<br> i do pillot projects <br> and many other projects <br>including this <br>but as aprofessional i have 0+ Experiance<br> on web devellopment"
+      document.getElementById('Education').innerHTML="<p>I  am 3rd year software enginnering student</p><br>I had talk many courses<br> web designing and developing courses<br>i take basic html and css and javascipt courses in highschol<br>i have a certeficate on international web designing courses<br>More or less am studing software engineering in debrebirhan university college of computing"
+   </script>
+    <script>
+        var sidemenu=document.getElementById('sidemenu');
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"; 
+        }
+
+
+    </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+      
+            function openmenu(){
+              sidemenu.style.right="0";
+            }
+            function closemenu(){
+              sidemenu.style.right="-200px";
+            }
+        
+    </script>
+    <!--script code for displaying the animation text-->
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+      var typed = new Typed('.text1',{
+     strings : [ 'IDnumber:1400751', '3rd year Software Engineer sstudent','Web developer',''],
+    
+     typingSpeed:800,
+     backSpeed:170,
+     backDelay:1200,
+     loop:true
+     
+   });
+
+
+ </script>
+ <?php
+      
+ ?>
+
+</body>
+</html>
